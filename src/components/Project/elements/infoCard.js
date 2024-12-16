@@ -8,6 +8,15 @@ export const projects = [
       viewCode:""
     },
     {
+      id: 4550,
+      title: "Maquetación formulario de registro",
+      image:
+        "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1721403531/emeka.site/maquetacion_udjd6r.png",
+      description: "",
+      visit: "https://maquetacion-formulario.netlify.app/",
+      viewCode: "https://github.com/micaelakorol/form",
+    },
+    {
       id: 0,
       title: "Emeka",
       image:
@@ -45,15 +54,6 @@ export const projects = [
       description: "Sitio web acortador de URL.",
       visit: "https://shortener-url-fm.netlify.app/",
       viewCode: "https://github.com/micaelakorol/shortener-url",
-    },
-    {
-      id: 4550,
-      title: "Newsletter, Challenge FEM",
-      image:
-        "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1715106502/ult-portfolio/newsletter_ou9ndk.png",
-      description: "Sitio de suscripción al boletín informativo.",
-      visit: "https://newsletter-challengefrontm.netlify.app/",
-      viewCode: "https://github.com/micaelakorol/newsletter-challenge",
     },
   ];
   
