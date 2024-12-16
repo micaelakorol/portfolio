@@ -1,0 +1,30 @@
+.containerSkill{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 1.3rem 1rem;
+    padding: .88rem;
+    overflow: hidden;
+}
+
+
+.imageSkill{
+    padding: .4rem;
+    margin: 1rem .4rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: .1rem;
+    background: var(--color-white);
+    box-shadow: rgba(176, 176, 185, 0.621) 0px 1px 0px, rgba(237, 237, 245, 0.205) 0px 0px 8px;
+}
+
+
+.skillTitle{
+    margin-bottom: 1.7rem;
+    font-size: 1.8rem;
+    color: var(--color-dark)
+}
+
+.imageSkill:hover{
+    transform: scale(1.3);
+}

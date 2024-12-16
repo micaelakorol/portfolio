@@ -1,0 +1,89 @@
+.containerProject {
+    padding: 1rem 1.6rem;
+  }
+  
+  .containerCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .bodyCard {
+    box-shadow: 0 4px 12px rgba(250, 247, 247, 0.1);
+    cursor: pointer;
+    display: inline-grid;
+    flex-direction: column;
+    margin: 2rem auto;
+    transition: transform 0.2s ease-in;
+    margin: .55rem;
+    padding: 0.6rem;
+    background-color: var(--color-white);;
+    border-radius: .6rem;
+  }
+  
+  .bodyCard:hover {
+    transform: scale(1.03);
+  }
+  
+  .imageCard {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .titleCard {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--color-dark)
+  }
+  
+  .description {
+    color: var(--description);
+    font-weight: 500;
+    font-size: 0.88rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .containerButtonCard {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonCard {
+    color: var(--color-dark);
+    margin: 0 0.3rem;
+    font-size: 0.88rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: var(--color-white);
+  }
+  
+  @media (max-width: 1200px) {
+    .containerCard {
+      grid-template-columns: repeat(3, 33%);
+    }
+  }
+  @media (max-width: 900px) {
+    .containerCard {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
+  @media (max-width: 670px) {
+    .containerCard {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .bodyCard{
+      width: auto;
+      height: auto;
+    }
+    .imageCard{
+      object-fit: cover;
+    }
+  }
+  

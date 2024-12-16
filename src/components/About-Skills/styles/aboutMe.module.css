@@ -1,0 +1,23 @@
+.containerAboutMe{
+    width: 50%;
+    padding: 1rem 1.6rem;
+    margin: 5% 0;
+    line-height: 1.6;
+   }
+   
+   /* General container about me and skills*/
+   
+   .container{
+       color: var(--color-dark);
+       display: flex;
+       flex-direction: column;
+   }
+   
+   
+   @media(max-width: 768px){
+       .containerAboutMe{
+           width: 90%;
+       }
+   }
+   
+   
