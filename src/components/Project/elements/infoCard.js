@@ -3,7 +3,7 @@ export const projects = [
       id: 111,
       title:"",
       image:"https://res.cloudinary.com/dgqyqd2pa/image/upload/v1734359199/new-portfolio/parking_jjkenm.png",
-      description:"Proyecto de Programación Orientada a Objetos que simula un sistema de estacionamiento, gestionando vehículos a través de clases. Utiliza los principios de Encapsulamiento y Abstracción.",
+      description:"Simulador de estacionamiento utilizando los principios de la Programación Orientada a Objetos (POO) y tecnologías como ChakraUI, JavaScript , React.js. ",
       visit:"",
       viewCode:""
     },

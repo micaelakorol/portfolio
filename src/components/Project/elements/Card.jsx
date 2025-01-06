@@ -6,7 +6,8 @@ const Card = () => {
   return (
     <section className={style.containerCard}>
       {projects.map((item) => (
-        <div key={item.id} className={style.bodyCard}>
+        <div key={item.id} className={`${style.bodyCard} ${item.id === 111 ? style.border : ''}`}
+>
           <img
             src={item.image}
             alt={item.title}
