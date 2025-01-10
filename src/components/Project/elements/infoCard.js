@@ -1,15 +1,15 @@
 export const projects = [
     {
       id: 111,
-      title:"",
+      title:"En proceso de desarrollo",
       image:"https://res.cloudinary.com/dgqyqd2pa/image/upload/v1734359199/new-portfolio/parking_jjkenm.png",
-      description:"Simulador de estacionamiento utilizando los principios de la Programación Orientada a Objetos (POO) y tecnologías como ChakraUI, JavaScript , React.js. ",
-      visit:"",
-      viewCode:""
+      description:"El objetivo de este proyecto, es crear un simulador de estacionamiento utilizando principios de la Programación Orientada a Objetos. ",
+      visit:"https://parkinglotweb.netlify.app/",
+      viewCode:"https://github.com/micaelakorol/parkinglot"
     },
     {
       id: 4550,
-      title: "Maquetación formulario de registro",
+      title: "Maquetación formulario de registro utilizando formik",
       image:
         "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1721403531/emeka.site/maquetacion_udjd6r.png",
       description: "",
@@ -23,7 +23,7 @@ export const projects = [
         "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1715106507/ult-portfolio/emeka_o2if0u.png",
       description:
         "Sitio web personal para ofrecer servicios de desarrollo web y diseño freelance.",
-      visit: "https://micaelakorol.site/",
+      visit: "https://emekaweb.netlify.app/",
       viewCode: "https://github.com/micaelakorol/emeka",
     },
     {
