@@ -13,9 +13,6 @@ const NavBar = () => {
       data-aos-offset="200"
       data-aos-easing="ease-in-sine"
     >
-      <Link activeClass="active" to="aboutMe">
-        <button className={styleNav.btnNav}>Sobre mí</button>{' '}
-      </Link>
       <Link activeClass="active" to="projects">
         {' '}
         <button className={styleNav.btnNav}>Proyectos</button>{' '}
@@ -25,7 +22,7 @@ const NavBar = () => {
         <button className={styleNav.btnNav}>Habilidades</button>
       </Link>
       <a href={form} target="_blank" className={styleNav.btnNav}>
-        Contacto
+        ¡Contactame!
       </a>
     </nav>
   );

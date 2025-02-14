@@ -24,15 +24,12 @@ const Presentation = () => {
           />
         </section>
         <section>
-          <h1 className={style.title}>
-            ¡Hola! Te doy la bienvenida
-            <br />a mi portafolio.
+          <h1 className={style.title_name}>
+          ¡Hola! Soy Micaela
           </h1>
           <h2 className={style.titleFrontend}>
-            Soy Micaela y me especializo en <br />
-           <span className={style.front}>Desarrollo Frontend.</span> 
+          Estudiante y Desarrolladora Frontend
           </h2>
-          <SocialMedia />
         </section>
       </main>
     </>

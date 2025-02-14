@@ -14,7 +14,7 @@ const AboutMe = () => {
           data-aos-offset="100"
           data-aos-easing="ease-in-sine"
         >
-          <h2>Sobre Mí</h2>
+          <h3>—Acerca de mí</h3>
           <p>
             Estudio Analista Programador en la Universidad Nacional de la Plata.
           </p>

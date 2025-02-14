@@ -15,7 +15,7 @@ const MyProjects = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
       >
-        <h3 className={title.skillTitle}>Mis proyectos</h3>
+        <h3 className={title.skillTitle}>–Proyectos</h3>
         <Card />
       </section>{" "}
     </Element>

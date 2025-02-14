@@ -4,8 +4,9 @@
     align-items: center;
     padding: 1rem;
     border-bottom: .9px solid rgb(225, 225, 225);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   }
-  
+
   .btnNav {
     display: inline-block;
     padding: 0.5rem 0.8rem;
@@ -18,11 +19,12 @@
     font-family: inherit;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bold;
   }
   
   .btnNav:hover {
     text-decoration: underline;
+    color: var(--bgBtn);
   }
   @media (max-width: 480px) {
     .containerNav {

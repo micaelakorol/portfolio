@@ -4,6 +4,10 @@
     margin: 5% 0;
     line-height: 1.6;
    }
+
+   .containerAboutMe p{
+    font-size: .88rem;
+   }
    
    /* General container about me and skills*/
    

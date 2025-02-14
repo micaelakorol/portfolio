@@ -5,18 +5,18 @@
     margin-top: 10%;
   }
   
-  .title {
+  .title_name {
     font-weight: 700;
     color: var(--color-dark);
     font-size: 2.7rem;
   }
   
   .imageSocial {
-    background: var(--darkLight);
+    background: var(--bgBtn);
     padding: 0.3rem;
     border-radius: 49%;
     margin: 1rem 0.3rem;
-    box-shadow: rgba(230, 234, 236, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0) 0px 2px 16px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   }
   
   .imageSocial:hover{
@@ -28,17 +28,12 @@
   }
   
   .titleFrontend {
-   /* compose: title;*/
     font-size: 1.7rem;
-    color: var(--color-dark);
+    color: var(--violet);
     font-weight: 600;
     margin: 0.7rem 0;
   }
-  
-  .front{
-    color: var(--color-dark);
-  }
-  
+
   @media (max-width: 768px) {
     .containerPresentation {
       flex-direction: column;

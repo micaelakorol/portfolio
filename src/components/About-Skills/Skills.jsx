@@ -12,7 +12,7 @@ const Skills = () => {
       data-aos-easing="ease-in-sine"
     >
       <Element name="skills">
-        <h3 className={style.skillTitle}>Mis habilidades</h3>
+        <h3 className={style.skillTitle}>–Habilidades</h3>
         <div>
           {skills.map((item) => (
             <abbr title={item.name} key={item.id}>
