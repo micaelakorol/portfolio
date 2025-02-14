@@ -3,6 +3,7 @@ import styleNav from './styles/navBar.module.css';
 import Aos from 'aos';
 import { Link } from 'react-scroll';
 import { form } from '../../assets/images';
+import ButtonDownload from '../../utils/reusable/ButtonDownload';
 
 const NavBar = () => {
   Aos.refresh();
@@ -13,6 +14,7 @@ const NavBar = () => {
       data-aos-offset="200"
       data-aos-easing="ease-in-sine"
     >
+      <div className={styleNav.links}>
       <Link activeClass="active" to="projects">
         {' '}
         <button className={styleNav.btnNav}>Proyectos</button>{' '}
@@ -23,7 +25,10 @@ const NavBar = () => {
       </Link>
       <a href={form} target="_blank" className={styleNav.btnNav}>
         ¡Contactame!
-      </a>
+      </a></div>
+      <div>
+        <ButtonDownload />
+      </div>
     </nav>
   );
 };

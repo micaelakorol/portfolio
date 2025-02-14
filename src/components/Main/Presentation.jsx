@@ -16,7 +16,7 @@ const Presentation = () => {
         {/** Main image */}
         <section>
           <img
-            src="https://res.cloudinary.com/dgqyqd2pa/image/upload/v1716918780/ult-portfolio/avatar_history_cfiwz6.svg"
+            src="https://is.gd/C6vJWm"
             height={150}
             width={230}
             alt="imagen"
@@ -30,7 +30,8 @@ const Presentation = () => {
           <h2 className={style.titleFrontend}>
           Estudiante y Desarrolladora Frontend
           </h2>
-        </section>
+          <SocialMedia />
+        </section>     
       </main>
     </>
   );

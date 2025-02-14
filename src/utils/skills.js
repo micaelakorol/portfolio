@@ -8,9 +8,6 @@ export const skills = [
         id:"1", src:css, name:"CSS"
     },
     {
-        id:"6", src:styled, name:"Styled-components"
-    },
-    {
         id:"2", src:js, name:"Javascript"
     },
     {
