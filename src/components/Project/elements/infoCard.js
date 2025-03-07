@@ -1,9 +1,9 @@
 export const projects = [
     {
       id: 111,
-      title:"En proceso de desarrollo",
+      title:"Simulador de estacionamiento",
       image:"https://res.cloudinary.com/dgqyqd2pa/image/upload/v1734359199/new-portfolio/parking_jjkenm.png",
-      description:"El objetivo de este proyecto, es crear un simulador de estacionamiento utilizando principios de la Programación Orientada a Objetos. ",
+      description:"Aplicando los principios de POO, este simulador permite gestionar vehículos, agregarlos, buscarlos, eliminarlos y calcular sus tarifas.",
       visit:"https://parkinglotweb.netlify.app/",
       viewCode:"https://github.com/micaelakorol/parkinglot"
     },
