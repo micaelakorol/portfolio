@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-top: .9px solid rgb(225, 225, 225);
+    border-top: .9px solid var(--lightWhite);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 

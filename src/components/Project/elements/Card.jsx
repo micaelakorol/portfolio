@@ -23,7 +23,7 @@ const Card = () => {
               className={style.buttonCard}
               target="_blank"
             >
-              {item.viewCode === '' ? 'En proceso de desarrollo' : 'Github'}
+              Github
             </a>
             {item.visit !== '' && (
               <a href={item.visit} className={style.buttonCard} target="_blank">
