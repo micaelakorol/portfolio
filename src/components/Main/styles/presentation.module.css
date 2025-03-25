@@ -17,11 +17,11 @@
     margin: 0.7rem 0;
     color: var(--color-dark);
   }
-  
+
   .imageSocial {
-    background: var(--brown);
-    padding: 0.3rem;
-    border: 1px solid #c2ba87;
+    background: var(--color-white);
+    padding: 0.4rem;
+    border: 1px solid var(--sand);
     border-radius: 49%;
     margin: 1rem 0.3rem;
   }
