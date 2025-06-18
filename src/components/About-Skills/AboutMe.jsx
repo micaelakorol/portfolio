@@ -16,7 +16,7 @@ const AboutMe = () => {
         >
           <h3>—Acerca de mí</h3>
           <p>
-            Estudio Analista Programador en la Universidad Nacional de la Plata.
+            Estudiante de Analista Programador en la Universidad Nacional de la Plata.
           </p>
           <p>
             {" "}

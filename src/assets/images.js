@@ -4,13 +4,13 @@ const js = 'https://is.gd/XwUvTI';
 const sqlite = 'https://is.gd/YjvF7g';
 const react = 'https://is.gd/wtDuh9';
 const form = 'https://is.gd/mefH9u';
-const download = 'https://is.gd/Ptay2e';
+const download = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1750282858/ult-portfolio/download-svgrepo-com_pxldhs.svg';
 const styled = 'https://is.gd/865P8L';
 const main = 'https://is.gd/xFBjnm';
 const html = 'https://is.gd/sJ4dG9';
-const linkedin = 'https://is.gd/G1mXEm';
-const github = 'https://is.gd/mzrqdF';
-const email = 'https://is.gd/3Jnoyp';
+const linkedin = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1750282861/ult-portfolio/linkedin-svgrepo-com_zahyoi.svg';
+const github = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1750282859/ult-portfolio/github-svgrepo-com_1_ov6ven.svg';
+const email = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1750282859/ult-portfolio/email-svgrepo-com_mkxizm.svg';
 export {
   github,
   linkedin,

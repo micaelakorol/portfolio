@@ -54,7 +54,7 @@
   
   .buttonCard {
     border: 1px solid transparent;
-    color: var(--lightBrown);
+    color: var(--color-dark);
     margin: 0 0.3rem;
     font-size: 0.88rem;
     padding: 0.6rem 0.9rem;
@@ -66,7 +66,8 @@
   }
  
   .buttonCard:hover{
-    border: 1px solid var(--sand);
+    color: var(--violet);
+    border: 1px solid var(--violet-hover) ;
   }
 
   @media (max-width: 1200px) {

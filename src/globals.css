@@ -4,15 +4,15 @@
   overflow-x: hidden;
 }
 :root {
-  --color-dark: #2f2319;
+  --color-dark: #141414;
   --bgBtn: #6d6d6d;
   --color-white: #ffff;
   --description: #1a1e23;
-  --lightBrown: #664f3a;
-  --background: #f5f4eb;
+  --background: #fafafa;
   --lightWhite: rgb(225, 225, 225);
-  --brown:#7b6142;
-  --sand:#c2ba87;
+  --gray: #696969;
+  --violet:#7C3AED;
+  --violet-hover:#6D28D9;
 }
 
 body,

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styleNav from './styles/navBar.module.css';
 import Aos from 'aos';
 import { Link } from 'react-scroll';
@@ -24,7 +24,7 @@ const NavBar = () => {
         <button className={styleNav.btnNav}>Habilidades</button>
       </Link>
       <a href={form} target="_blank" className={styleNav.btnNav}>
-        ¡Contactame!
+        Contacto
       </a></div>
       <div>
         <ButtonDownload />

@@ -21,13 +21,13 @@
   .imageSocial {
     background: var(--color-white);
     padding: 0.4rem;
-    border: 1px solid var(--sand);
+    border: 1.2px solid var(--color-dark);
     border-radius: 49%;
     margin: 1rem 0.3rem;
   }
   
   .imageSocial:hover{
-    border: 1px solid var(--lightBrown);
+    border: 1px solid var(--violet-hover);
   }
   
   .imageMain {
