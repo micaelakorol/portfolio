@@ -43,7 +43,7 @@ export const projects = [
         "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1715106505/ult-portfolio/herreria_wb5p3o.png",
       description:
         "Exhibe sus servicios de herrería, su ubicación, redes sociales y un pequeño portafolio con sus trabajos.",
-      visit: "https://herreriajavier.website/",
+      visit: "https://herreriajavier.netlify.app/",
       viewCode: "https://github.com/micaelakorol/herreriajavier",
     },
     {

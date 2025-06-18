@@ -28,7 +28,7 @@ const Presentation = () => {
           ¡Hola! Soy Micaela
           </h1>
           <h2 className={style.titleFrontend}>
-          Estudiante y Desarrolladora Frontend
+           Desarrolladora Frontend
           </h2>
           <SocialMedia />
         </section>     
