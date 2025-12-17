@@ -4,10 +4,10 @@
   overflow-x: hidden;
 }
 :root {
-  --color-dark: #141414;
+  --color-dark: #4b5563;
   --bgBtn: #6d6d6d;
   --color-white: #ffff;
-  --description: #1a1e23;
+  --description: #4b5563;
   --background: #fafafa;
   --lightWhite: rgb(225, 225, 225);
   --gray: #696969;

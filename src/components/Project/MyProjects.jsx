@@ -1,4 +1,3 @@
-import React from "react";
 import title from "../About-Skills/styles/skills.module.css";
 import style from "./styles/projects.module.css";
 import Card from "./elements/Card";
@@ -15,7 +14,7 @@ const MyProjects = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
       >
-        <h3 className={title.skillTitle}>–Proyectos</h3>
+        <h3 className={title.skillTitle}>–Proyectos destacados</h3>
         <Card />
       </section>{" "}
     </Element>

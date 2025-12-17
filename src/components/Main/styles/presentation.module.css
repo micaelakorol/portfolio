@@ -1,51 +1,78 @@
 .containerPresentation {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10%;
-  }
-  
-  .title_name {
-    font-weight: 700;
-    color: var(--color-dark);
-    font-size: 2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem auto;
+  padding: 4rem 2rem;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+
+/* ---------- TEXT ---------- */
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.greeting {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280; /* gray-500 */
+}
+
+.titleName {
+  font-size: 2.6rem;
+  font-weight: 700;
+  padding: 1rem .88rem .88rem 0;
+  line-height: 1.1;
+  color: #111827; /* gray-900 */
+}
+
+.titleName span {
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.titleRole {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #374151; /* gray-700 */
+}
+
+.description {
+  margin-top: 0.5rem;
+  max-width: 420px;
+
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4b5563; /* gray-600 */
+}
+
+/* ---------- SOCIAL ---------- */
+
+.imageSocial{
+  margin: .5rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  .containerPresentation {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2.5rem;
   }
 
-  .titleFrontend {
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin: 0.7rem 0;
-    color: var(--color-dark);
+  .description {
+    margin: 0 auto;
   }
 
-  .imageSocial {
-    background: var(--color-white);
-    padding: 0.4rem;
-    border: 1.2px solid var(--color-dark);
-    border-radius: 49%;
-    margin: 1rem 0.3rem;
-  }
-  
-  .imageSocial:hover{
-    border: 1px solid var(--violet-hover);
-  }
-  
   .imageMain {
-    object-fit: contain;
+    width: 200px;
   }
-
-  @media (max-width: 768px) {
-    .containerPresentation {
-      flex-direction: column;
-      margin: 5% 0.5rem;
-    }
-  }
-  @media (max-width: 480px) {
-    .titleFrontend {
-      font-size: 1.6rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-  }
-  
+}
