@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+h2,
+h3 {
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+:root {
+  --color-dark: #4b5563;
+  --black: #000;
+  --bgBtn: #6d6d6d;
+  --color-white: #ffff;
+  --description: #4b5563;
+  --background: #fafafa;
+  --lightWhite: rgb(225, 225, 225);
+  --gray: #696969;
+  --violet: #7c3aed;
+  --violet-hover: #6d28d9;
+}
+
+body,
+html {
+  background-color: var(--background);
+  font-family: 'Onest';
+  width: 100%;
+  height: 100%; 
+}

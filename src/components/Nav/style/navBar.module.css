@@ -1,0 +1,50 @@
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb; /* línea sutil */
+}
+
+.links > :nth-child(3) {
+  border: 1.3px solid var(--violet-hover);
+  padding: 0.4rem 0.77rem;
+  color: var(--violet-hover);
+}
+
+.btnNav {
+  display: inline-block;
+  padding: 0.5rem 0.4rem;
+  border: none;
+  margin: 0 0.6rem;
+  font-size: 0.8rem;
+  color: var(--color-dark);
+  background-color: transparent;
+  border-radius: 0.6rem;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btnNav:hover {
+  text-decoration: underline;
+  color: var(--violet-hover);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .containerNav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .links{
+      flex-direction: column;
+  }
+}

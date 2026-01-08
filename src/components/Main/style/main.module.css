@@ -1,0 +1,69 @@
+.containerPresentation {
+  display: flex;
+  align-items: center;
+  padding: 6rem 2rem;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.textWrapper {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.greeting {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+.titleRole {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.titleName {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #374151;
+}
+
+.description {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #4b5563;
+  max-width: 460px;
+}
+
+/* Línea sutil */
+.textWrapper::after {
+  content: "";
+  width: 32px;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-top: 1.5rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  .containerPresentation {
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+
+  .textWrapper {
+    align-items: center;
+  }
+
+  .description {
+    margin: 1.2rem auto 0;
+  }
+}
