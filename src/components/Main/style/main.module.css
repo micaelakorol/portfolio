@@ -3,7 +3,7 @@
   align-items: center;
   padding: 6rem 2rem;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .textWrapper {
@@ -11,13 +11,14 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  color: var(--description);
 }
 
 .greeting {
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #9ca3af;
+   color: #111827;
   margin-bottom: 0.5rem;
 }
 
@@ -31,18 +32,17 @@
 .titleName {
   font-size: 1.15rem;
   font-weight: 400;
-  color: #374151;
+  color: var(--color-dark);
 }
 
 .description {
   margin-top: 1.5rem;
   font-size: 0.95rem;
   line-height: 1.75;
-  color: #4b5563;
+  color: var(--description);
   max-width: 460px;
 }
 
-/* Línea sutil */
 .textWrapper::after {
   content: "";
   width: 32px;

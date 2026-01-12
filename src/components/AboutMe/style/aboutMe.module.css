@@ -19,6 +19,7 @@
 .containerAboutMe p {
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  color: var(--description);
 }
 
 /* TABLETS */

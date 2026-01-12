@@ -18,15 +18,14 @@
   margin: 0.2rem;
   text-decoration: none;
   font-size: 0.87rem;
-  color: var(--color-dark);
+  color: var(--description);
 }
 
 .socialMedia a:hover {
   text-decoration: underline;
-  color: var(--violet-hover);
 }
 
 footer p {
-  color: var(--color-dark);
+  color: var(--description);
   font-size: 0.87rem;
 }

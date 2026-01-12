@@ -4,13 +4,15 @@
   align-items: center;
   padding: 0.8rem 1.5rem;
   background-color: white;
-  border-bottom: 1px solid #e5e7eb; /* línea sutil */
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .links > :nth-child(3) {
-  border: 1.3px solid var(--violet-hover);
-  padding: 0.4rem 0.77rem;
-  color: var(--violet-hover);
+  background-color: var(--bgBtn);
+  padding: 0.55rem 0.88rem;
+  color: var(--nav);
+  border: 1px solid var(--nav);
+   border-radius: 25px;
 }
 
 .btnNav {
@@ -19,19 +21,17 @@
   border: none;
   margin: 0 0.6rem;
   font-size: 0.8rem;
-  color: var(--color-dark);
+  color: var(--nav);
   background-color: transparent;
   border-radius: 0.6rem;
   font-family: inherit;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
-  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .btnNav:hover {
   text-decoration: underline;
-  color: var(--violet-hover);
 }
 
 .links {

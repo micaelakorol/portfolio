@@ -13,15 +13,13 @@ h3 {
 
 :root {
   --color-dark: #4b5563;
+  --nav:#46403d;
+  --bgBtn:#d8d2bf;
+  --description: #010101;
   --black: #000;
-  --bgBtn: #6d6d6d;
   --color-white: #ffff;
-  --description: #4b5563;
-  --background: #fafafa;
+  --background: ##f1f1f1;
   --lightWhite: rgb(225, 225, 225);
-  --gray: #696969;
-  --violet: #7c3aed;
-  --violet-hover: #6d28d9;
 }
 
 body,
