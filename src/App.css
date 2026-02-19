@@ -1,0 +1,25 @@
+:root {
+  --gray: #ddd;
+  --dark: #222;
+  --darkLight: #333;
+  --grayLight: #eee;
+  --background: #f9f9f9;
+  --shinyGray: #555;
+  --skyBlue1: #0073b1;
+  --skyBlue2: #005582;
+}
+/* Reset y body */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  padding: 20px;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

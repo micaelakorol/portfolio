@@ -1,0 +1,30 @@
+#contact {
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px 20px;
+    border-top: 1px solid var(--grayLight);
+}
+
+#contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--gray);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#contact p {
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+    #contact p {
+        font-size: 0.95rem;
+    }
+}

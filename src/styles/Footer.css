@@ -1,0 +1,31 @@
+#footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid var(--gray);
+}
+
+#footer p {
+    margin-bottom: 8px;
+    color: var(--shinyGray);
+    font-size: 0.95rem;
+}
+
+#footer a {
+    color: var(--skyBlue1);
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: var(--skyBlue2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #footer p {
+        font-size: 0.9rem;
+    }
+}
