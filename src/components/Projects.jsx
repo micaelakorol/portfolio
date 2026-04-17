@@ -22,7 +22,7 @@ const Projects = () => {
         </a>
         
       </div>
-       <div className="project-card">
+       {/*<div className="project-card">
         <h3> Proyectos de Desarrollo Web </h3>
         <p>
          Landing pages y sitios web simples creados con HTML, CSS y JavaScript.
@@ -34,7 +34,7 @@ const Projects = () => {
           Ir al sitio{' '}
         </a>
         
-      </div>
+      </div>*/}
     </section>
   );
 };

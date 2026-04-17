@@ -9,9 +9,10 @@ const skills = [
 
   // Data Science
   { name: "Machine Learning", icon: "🤖" },
-
+  { name: "Pandas", icon: "📊" },
+  { name: "NumPy", icon: "🔢" },
   // Desarrollo web
-  { name: "Desarrollo Frontend", icon: "💻" }
+  /*{ name: "Desarrollo Frontend", icon: "💻" }*/
 ];
 
 

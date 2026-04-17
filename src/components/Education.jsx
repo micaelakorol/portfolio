@@ -11,7 +11,7 @@ const Education = () => {
         <p>Universidad Nacional de La Plata | Actualmente cursando</p>
         <p>
           <strong>Temas aprendidos:</strong> POO, estructuras de datos, listas,
-          arrays, matrices, funciones, procedimientos, Pascal.
+          arrays, matrices, funciones, procedimientos, Pascal, Python.
         </p>
       </div>
     </section>
