@@ -11,33 +11,43 @@
 }
 
 .skill-card {
-  background: var(--background);
-  padding: 15px 20px;
+  background: var(--bg-card);
+  padding: 12px 20px 12px 10px;
   border-radius: 10px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--line);
   display: flex;
   align-items: center;
   gap: 10px;
-  transition:
-    transform 0.3s,
-    box-shadow 0.3s;
-
   cursor: pointer;
-  font-family: 'Courier New', Courier, monospace;
+   transition: transform .15s ease, border-color .15s ease;
 }
 
 .skill-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  border-color: var(--skyBlue2);
+}
+/*
+.skill-icon {
+  font-size: 1rem;
+}
+*/
+
+.icon{
+  width: 30px; height: 30px;
+  border-radius: 4px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--skyBlue1);
+  color: var(--white);
+  font-size: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.skill-icon {
-  font-size: 1.2rem;
-}
 
 .skill-name {
-  font-weight: bold;
   color: var(--dark);
+  font-weight: 300;
+  font-size: .8rem;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* Responsive */

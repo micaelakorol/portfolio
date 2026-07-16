@@ -3,16 +3,16 @@ import "../styles/Skills.css";
 
 const skills = [
   // Lenguajes y fundamentos
-  { name: "Python", icon: "🐍" },
-  { name: "SQL básico", icon: "🗄️" },
-  { name: "POO", icon: "💻" },
+  { name: "Python", icon: "Py" },
+  { name: "SQL básico", icon: "SQL",},
+  { name: "POO", icon: "POO" },
 
   // Data Science
-  { name: "Machine Learning", icon: "🤖" },
-  { name: "Pandas", icon: "📊" },
-  { name: "NumPy", icon: "🔢" },
+  { name: "Machine Learning", icon: "ML" },
+  { name: "Pandas", icon: "pd" },
+  { name: "NumPy", icon: "np" },
   // Desarrollo web
-  /*{ name: "Desarrollo Frontend", icon: "💻" }*/
+   {name: "Desarrollo Frontend", icon: "DF" }
 ];
 
 
@@ -23,7 +23,7 @@ const Skills = () => {
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div key={index} className="skill-card">
-            <span className="skill-icon">{skill.icon}</span>
+            <span className="icon">{skill.icon}</span>
             <span className="skill-name">{skill.name}</span>
           </div>
         ))}

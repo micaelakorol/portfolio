@@ -7,7 +7,9 @@ const Header = () => {
     <header className="hero">
       {/*<img src="" alt="Micaela Korol" className="profile-img"/>}*/}
       <h1>Micaela Korol</h1>
-      <h3>Analista de Datos en formación</h3>
+      <h3>Analista de Datos en formación 
+        <span class="cursor"></span>
+      </h3>
       <nav className="social-links">
         <a href="https://www.linkedin.com/in/micaelakorol/" target="_blank">
           LinkedIn
